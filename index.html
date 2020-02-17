@@ -11,14 +11,14 @@
     <body>
         <header class="page-header">
             <div>
-                <button class="circle-fill-button circle-fill-button--icon-img--menu" onclick="openMenu()" name="Open-Menu">Открыть меню</button>
+                <button class="circle-fill-button circle-fill-button--icon-img--menu" name="Open-Menu">Открыть меню</button>
                 <div class="page-header__border"></div>
                 <img src="./img/icons/Group.svg" alt="Company logo" class="company-logo company-logo_header">
             </div>
             <div>
                 <div class="contact-links contact-links--position--header">
                     <button class="circle-fill-button circle-fill-button--icon-img--chat" name="chat">Чат</button>
-                    <button class="circle-fill-button circle-fill-button--icon-img--call" name="chat">Звонок</button>
+                    <button class="circle-fill-button circle-fill-button--icon-img--call" name="call">Звонок</button>
                     <button class="circle-fill-button circle-fill-button--icon-img--profile" name="profile">Профиль</button>                    
                 </div>
                 <div class="page-header__border"></div>
@@ -28,13 +28,11 @@
                 </div>
             </div>
         </header>
-
-        <main class="mainContent">
-
+        <div class="wrapper">
             <aside class="side-menu" id="menu">
                 <div class="side-menu__header">
                     <div>
-                        <button class="circle-fill-button circle-fill-button--icon-img--close" onclick="hideMenu()" name="Close-Menu">Закрыть меню</button>
+                        <button class="circle-fill-button circle-fill-button--icon-img--close" name="close">Закрыть меню</button>
                         <img src="./img/icons/Group.svg" alt="Company logo" class="company-logo">
                     </div>
                     <button class="circle-fill-button circle-fill-button--icon-img--search" name="search">Поиск</button>
@@ -69,7 +67,7 @@
                 <div class="side-menu__footer">
                     <div class="contact-links contact-links--position--menu">
                         <button class="circle-fill-button circle-fill-button--icon-img--chat" name="chat">Чат</button>
-                        <button class="circle-fill-button circle-fill-button--icon-img--call" name="chat">Звонок</button>
+                        <button class="circle-fill-button circle-fill-button--icon-img--call" name="call">Звонок</button>
                         <button class="circle-fill-button circle-fill-button--icon-img--profile" name="profile">Профиль</button>
                     </div>
     
@@ -88,8 +86,9 @@
                     </ul>
                 </div>
             </aside>
-
             <div class="content">
+            <main class="main-content">
+            
 
             <div class="content-header">
                 <h1 class="content-header__title">Услуги и сервисы</h1>
@@ -135,57 +134,57 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odit atque dicta maiores minus aut aliquid quam laborum, ad obcaecati quis nemo nulla minima quas, quos perspiciatis alias, temporibus saepe.
                             </p>
                         </div>
-                        <div class="show-hide-buttons">
+                        <div class="show-hide-buttons about-us__show-hide-buttons">
                             <button class="show-hide-buttons__read-more" name="read-more">Читать далее</button>
                             <button class="show-hide-buttons__read-less show-hide-buttons__read-more--display--hide allahg" name="read-less">Скрыть</button>
                         </div>
                         
                     </section>
-                    <section class="about-us__image">
-                        <img src="./img/logos/headerImg.jpg" alt="Фотография вывески при входе в офис">
+                    <section class="about-us__image-wrap">
+                        <img src="./img/logos/headerImg.jpg" class="about-us__image" alt="Фотография вывески при входе в офис">
                     </section>
                 </div>
 
             </div>
             <div class="content-body">
                 <div class="content-body__brands">
-                    <h3 class="content-body__title">ремонт техники различных брендов</h3>
-                    <div class="content-body__container">
+                    <h3 class="content-body__title">ремонт различных видов техники</h3>
+                    <div class="content-body__container content-body__container--type--brand">
                             <div class="content-body__wrapper">
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/lenovologo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/samsunglogo.jpg" alt="samsung logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/applelogo.jpg" alt="apple logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/viewsoniclogo.jpg" alt="view sonic logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/boschlogo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/hplogo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/acerlogo.png" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/sonylogo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/lenovologo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/lenovologo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/samsunglogo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
-                                <a href="#" class="content-body__list-item">
+                                <a href="#" class="content-body__list-item content-body__list-item--type--brand">
                                     <img src="./img/logos/applelogo.jpg" alt="lenovo logo" class="content-body__logo">
                                 </a>
                         </div>
@@ -196,13 +195,149 @@
                         <button class="show-hide-buttons__read-less show-hide-buttons__read-more--display--hide" name="read-less">Скрыть</button>
                     </div>
                     </div>
+
+
+                    <div class="content-body__technics">
+                        <h3 class="content-body__title">ремонт техники различных брендов</h3>
+                        <div class="content-body__container content-body__container--type--technics">
+                                <div class="content-body__wrapper">
+                                    <a href="#" class="content-body__list-item content-body__list-item--type--technics">
+                                        <span>Ремонт ноутбуков</span>
+                                    </a>
+                                    <a href="#" class="content-body__list-item content-body__list-item--type--technics">
+                                        <span>Ремонт планшетов</span>
+                                    </a>
+                                    <a href="#" class="content-body__list-item content-body__list-item--type--technics">
+                                        <span>Ремонт ПК</span>
+                                    </a>
+                                    <a href="#" class="content-body__list-item content-body__list-item--type--technics">
+                                        <span>Ремонт мониторов</span>
+                                    </a>
+                                    <a href="#" class="content-body__list-item content-body__list-item--type--technics">
+                                        <span>Ремонт телефонов</span>
+                                    </a>
+                                    <a href="#" class="content-body__list-item content-body__list-item--type--technics">
+                                        <span>Ремонт принтеров</span>
+                                    </a>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="show-hide-buttons content-body__show-hide-buttons">
+                            <button class="show-hide-buttons__read-more" name="read more">Читать далее</button>
+                            <button class="show-hide-buttons__read-less show-hide-buttons__read-more--display--hide" name="read-less">Скрыть</button>
+                        </div>
+                        </div>
+                        <div class="prices">
+                            <h3 class="prices__title">Цены на услуги</h3>
+                            <div class="prices__container">
+                                <div class="prices__table-header">
+                                    <span class="prices__table-header-name">Ремонтные услуги</span>
+                                    <span class="prices__table-header-price">Цена</span>
+                                    <span class="prices__table-header-time">Срок</span>
+                                </div>
+                                <div class="prices__wrapper">
+                                    <div class="prices__list-item">
+                                        <span class="prices__service--option-name">Ремонтные услуги</span>
+                                        <span class="prices__service--name">Диагностика</span>
+                                        <span class="prices__service--option-name">Цена</span>
+                                        <span class="prices__service--price">Бесплатно</span>
+                                        <span class="prices__service--option-name">Срок</span>
+                                        <span class="prices__service--time">30 мин<button class="button-with-text-and-arrow">Заказать</button></span>
+                                    </div>
+                                    <div class="prices__list-item">
+                                        <span class="prices__service--option-name">Ремонтные услуги</span>
+                                        <span class="prices__service--name">Замена дисплея</span>
+                                        <span class="prices__service--option-name">Цена</span>
+                                        <span class="prices__service--price">1000 ₽</span>
+                                        <span class="prices__service--option-name">Срок</span>
+                                        <span class="prices__service--time">30-120 мин <button class="button-with-text-and-arrow">Заказать</button></span>
+                                    </div>
+                                    <div class="prices__list-item">
+                                        <span class="prices__service--option-name">Ремонтные услуги</span>
+                                        <span class="prices__service--name">Замена полифонического динамика</span>
+                                        <span class="prices__service--option-name">Цена</span>
+                                        <span class="prices__service--price">1000 ₽</span>
+                                        <span class="prices__service--option-name">Срок</span>
+                                        <span class="prices__service--time">30-120 мин <button class="button-with-text-and-arrow">Заказать</button></span>
+                                    </div>
+                                    <div class="prices__list-item">
+                                        <span class="prices__service--option-name">Ремонтные услуги</span>
+                                        <span class="prices__service--name">Тестирование с выдачей технического заключения</span>
+                                        <span class="prices__service--option-name">Цена</span>
+                                        <span class="prices__service--price">1000 ₽</span>
+                                        <span class="prices__service--option-name">Срок</span>
+                                        <span class="prices__service--time">30-120 мин <button class="button-with-text-and-arrow">Заказать</button></span>
+                                    </div>
+                                    <div class="prices__list-item">
+                                        <span class="prices__service--option-name">Ремонтные услуги</span>
+                                        <span class="prices__service--name">Замена программного обеспечения</span>
+                                        <span class="prices__service--option-name">Цена</span>
+                                        <span class="prices__service--price">1000 ₽</span>
+                                        <span class="prices__service--option-name">Срок</span>
+                                        <span class="prices__service--time">30-120 мин <button class="button-with-text-and-arrow">Заказать</button></span>
+                                    </div>
+                                    <div class="prices__list-item">
+                                        <span class="prices__service--option-name">Ремонтные услуги</span>
+                                        <span class="prices__service--name">Тестирование с выдачей технического заключения</span>
+                                        <span class="prices__service--option-name">Цена</span>
+                                        <span class="prices__service--price">1000 ₽</span>
+                                        <span class="prices__service--option-name">Срок</span>
+                                        <span class="prices__service--time">30-120 мин <button class="button-with-text-and-arrow">Заказать</button></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                
+                            </div>
+                            <div class="prices__footer">
+                                <p class="prices__after-text">
+                                    Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+                                </p>
+                                <a href="#" class="prices__comercial-link">Получить коммерческое предложение</a>
+                            </div>
+                            </div>
             </div>
             
-            </div>
+            
         
         </main>
 
-        <footer></footer>
+        <footer class="footer">
+            <p class="footer__develop-by">
+                © 2019 CPS<br>
+                Разработано командой Apesong 
+            </p>
+            <a class="footer__confidencial" href="#">
+                Политика конфиденциальности
+            </a>
+            <p class="footer__offert">
+                Информация, размещенная на данной странице, не является публичной офертой
+            </p>
+        </footer>
+    </div>
+    </div>
+    <div class="war-fog"> </div>
+    <div class="modal modal--name--feedback">
+        <button class="circle-fill-button circle-fill-button--icon-img--close modal__circle-fill-button" name="close">Закрыть меню</button>
+        <h3 class="modal__title">Обратная связь</h3>
+        <form action="" class="modal__form" method="post" name="back-request-form">
+            <input required type="text" name="name" placeholder="Имя" class="modal__input modal__input--type--text">
+            <input type="tel" name="phonenumber" placeholder="Телефон" class="modal__input modal__input--type--number" pattern="(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}" required>
+            <input required type="email" name="email" placeholder="Электронная почта" class="modal__input modal__input--type--email">
+            <textarea name="message" placeholder="Сообщение" class="modal__input modal__input--type--text-area"></textarea>
+            <p class="modal__text">Нажимая “отправить”, вы даете согласие на <a href="#" class="modal__link">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="modal__link">политикой конфиденциальности</a></p>
+            <button type="submit" class="button-with-text-and-arrow feedback__button-with-text-and-arrow">Отправить</button>
+        </form>
+    </div>
+    
+    <div class="modal modal--name--call">
+        <button class="circle-fill-button circle-fill-button--icon-img--close modal__circle-fill-button" name="close">Закрыть меню</button>
+        <h3 class="modal__title">Заказать звонок</h3>
+        <form action="" class="modal__form" method="post" name="call-form">
+            <input type="tel" name="phonenumber" placeholder="Телефон" class="modal__input modal__input--type--number" pattern="(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}" required>
+            <p class="modal__text">Нажимая “отправить”, вы даете согласие на <a href="#" class="modal__link">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="modal__link">политикой конфиденциальности</a></p>
+            <button type="submit" class="button-with-text-and-arrow feedback__button-with-text-and-arrow">Отправить</button>
+        </form>
+    </div>
         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script type="text/javascript" src="bundle.js"></script></body>
 </html>
